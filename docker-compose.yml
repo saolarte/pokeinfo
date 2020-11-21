@@ -1,0 +1,19 @@
+version : "3.8"
+services :
+    web:
+        build: .
+        depends_on:
+            - postgres
+        volumes:
+            - ./pokeapi/:/app
+        ports:
+            - 8001:8000
+    postgres:
+        image: postgres
+        ports:
+            - 5431:5432
+        environment:
+            POSTGRES_PASSWORD : 1234
+            POSTGRES_DB : djangopostgres
+
+
