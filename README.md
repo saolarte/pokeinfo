@@ -1,14 +1,14 @@
 Run using docker-compose in the root directory of the project:
-docker-compose up
+```docker-compose up```
 
 
 Populate database through manage.py command
 
 1. Log into docker container:
-docker exec -it {container_id} bash
+```docker exec -it {container_id} bash```
 
 2. Run the command:
-python manage.py evochain {chain_id}
+```python manage.py evochain {chain_id}```
 
 
 
