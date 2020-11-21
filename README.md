@@ -2,7 +2,7 @@ Run using docker-compose in the root directory of the project:
 ```docker-compose up```
 
 
-Populate database through manage.py command
+Populate database through manage.py command:
 
 1. Get web container id by running:
 ```docker ps -a```
