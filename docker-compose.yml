@@ -13,7 +13,7 @@ services :
         ports:
             - 5431:5432
         environment:
-            POSTGRES_PASSWORD : pokeinfo@231
+            POSTGRES_PASSWORD : pokeinfo231
             POSTGRES_DB : djangopostgres
 
 
